@@ -7,16 +7,76 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-/*Laranja Principal:
-HEX : #ff914d
-RGB : 255, 145, 77
-HSL  : 22, 100%, 65%*/
+/*HEADER*/
 
-/*Laranja Secundário
+header {
+    display: flex;
+    background-color: #ff914d;
+    color: white;
+    padding: 0 20;
+    justify-content: space-between;
+    height: 15vh;
+    position: sticky;
+    padding: 1vw;
+}
 
-HEX : #ffbd59
-RGB : 255, 189, 89
-HSL  : 36, 100%, 67%*/
+.icone4bank {
+    width: 150px;
+}
+
+.opcoes-header {
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-header > h2 {
+    margin: 0 2vw;
+}
+
+.area-login {
+    display: flex;
+    align-items: center;
+}
+
+.area-login > h2 {
+    padding: 3vw;
+}
+
+.icone-login {
+    height: 30px;
+    width: 30px;
+    margin-right: 5vw;
+}
+
+/*MAIN*/
 
 
+/*FOOTER*/
 
+footer {
+    display: flex;
+    background-color: #ff914d;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5vw;
+}
+
+.footer-coluna-esq {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.coluna-links-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.coluna-links-footer > p {
+    margin: 0.5vh 0;
+}
+
+.footer-coluna-dir > p {
+    padding: 1vh 0;
+}
