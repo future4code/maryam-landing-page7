@@ -2,6 +2,12 @@
 ### maryam-landing-page7
 Foi selecionado a opção do F4Bank
 
+### O que funciona?
+O preenchimento do formulário e os icones das redes sociais. Outras sessões estão apenas com o visual de botão para fins de simulação.
+
+### O que não funciona?
+O formulário não é enviado e as sessões não redirecionam para outras áreas.
+
 ### Integrantes do grupo:
 
 Érico Marshall
