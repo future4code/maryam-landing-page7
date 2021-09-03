@@ -15,9 +15,10 @@ header {
     color: white;
     padding: 0 20;
     justify-content: space-between;
-    height: 15vh;
-    position: sticky;
+    height: 10vh;
+    position: fixed;
     padding: 1vw;
+    width: 100%;
 }
 
 .icone4bank {
@@ -36,6 +37,11 @@ header {
 .area-login {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.area-login:hover {
+    color: lightgray;
 }
 
 .area-login > h2 {
@@ -52,8 +58,10 @@ header {
 /*MAIN 1*/
 
 .main-pagina1 {
+    padding-top: 10vh;
     background-image: url(./anexos/fundo_main1.jpeg);
     background-size: 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,10 +71,11 @@ header {
 }
 
 .texto-main1 {
-    margin-left: 11vw;
     margin: 25vh 0;
+    margin-left: 11vw;
     text-align: left;
     color: #ff914d;
+    justify-self: center;
 }
 
 .texto-main1 > h1,h2 {
@@ -81,6 +90,7 @@ header {
     padding: 2vw;
     color: white;
     border-radius: 20px;
+    justify-self: center;
 }
 
 input {
@@ -102,6 +112,11 @@ button {
     color: #ffbd59;
     font-family: 'Comfortaa', cursive;
     border: none;
+    cursor: pointer;
+}
+
+button:active {
+    color: orangered;
 }
 
 /*MAIN 2 e 3*/
@@ -121,11 +136,10 @@ button {
 }
 
 .texto-main2, .texto-main3 {
+    margin: 10vh 0;
     margin-left: 11vw;
-    margin: 20vh 0;
     text-align: left;
     color: #ff914d;
-    margin-left: 10vh;
     line-height: 5vh;
 }
 
@@ -160,6 +174,7 @@ footer {
     align-items: center;
     color: white;
     padding: 1.5vw;
+    height: fit-content;
 }
 
 .footer-coluna-esq {
@@ -171,6 +186,7 @@ footer {
 .coluna-links-footer {
     display: grid;
     grid-template-columns: 1fr;
+    cursor: pointer;
 }
 
 .coluna-links-footer > p {
@@ -179,6 +195,12 @@ footer {
 
 .footer-coluna-dir > p {
     padding: 1vh 0;
+}
+
+.link-redes-sociais img {
+    width: 40px;
+    margin: 0 20px;
+    margin-top: 10px;
 }
 
 
@@ -198,6 +220,7 @@ footer {
         grid-template-columns: 1fr;
         align-items: center;
         margin-right: 0;
+        height: fit-content;
     }
 
     .main-pagina1{
@@ -224,14 +247,13 @@ footer {
         padding: 5vw;
         border-radius: 20px;
         justify-self: center;
+        margin-bottom: 5vh;
     }
 
     input {
         margin-top: 3vh;
         height: 4vh;
         width: 30vw;
-
-
     }
     
     button {
@@ -253,15 +275,9 @@ footer {
         text-align: justify;
     }
 
-
-
-
 /* footer */ 
-    footer {
-        margin-top: 150px;
+    .coluna-links-footer {
+        text-align: center;
+        padding: 10px;
     }
-
-
-
-
 }
