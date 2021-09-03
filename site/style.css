@@ -21,7 +21,7 @@ header {
 }
 
 .icone4bank {
-    width: 150px;
+    width: 13vh;
 }
 
 .opcoes-header {
@@ -40,6 +40,7 @@ header {
 
 .area-login > h2 {
     padding: 3vw;
+    margin-top: 0;
 }
 
 .icone-login {
@@ -48,8 +49,108 @@ header {
     margin-right: 5vw;
 }
 
-/*MAIN*/
+/*MAIN 1*/
 
+.main-pagina1 {
+    background-image: url(./anexos/fundo\ main1.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15vw;
+    text-align: center;
+    align-items: center;
+}
+
+.texto-main1 {
+    margin-left: 11vw;
+    margin: 25vh 0;
+    text-align: left;
+    color: #ff914d;
+    margin-left: 10vh;
+}
+
+.texto-main1 > h1,h2 {
+    margin-top: 10vh;
+}
+
+.formulario {
+    background-color: #ffbd59;
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+    padding: 2vw;
+    color: white;
+    border-radius: 20px;
+}
+
+input {
+    margin-top: 10vh;
+    height: 4vh;
+    width: 15vw;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+button {
+    height: 6vh;
+    width: 15vw;
+    margin-top: 5vh;
+    border-radius: 10px;
+    color: #ffbd59;
+    font-family: 'Comfortaa', cursive;
+    border: none;
+}
+
+/*MAIN 2 e 3*/
+
+.main-pagina2, .main-pagina3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    gap: 15vw;
+    text-align: center;
+    align-items: center;
+}
+
+.main-pagina2 > img {
+    width: 90%;
+    margin-right: 50vw;
+}
+
+.texto-main2, .texto-main3 {
+    margin-left: 11vw;
+    margin: 20vh 0;
+    text-align: left;
+    color: #ff914d;
+    margin-left: 10vh;
+    line-height: 5vh;
+}
+
+.texto-main2 > h2, p {
+    margin-top: 10vh;
+}
+
+
+.main-pagina3 > img {
+    width: 70%;
+}
+
+.texto-main3 > h3, p {
+    margin-top: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ff914d;
+}
+
+a:hover {
+    font-weight: 800;
+}
 
 /*FOOTER*/
 
