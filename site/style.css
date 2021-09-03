@@ -67,7 +67,6 @@ header {
     margin: 25vh 0;
     text-align: left;
     color: #ff914d;
-    margin-left: 10vh;
 }
 
 .texto-main1 > h1,h2 {
@@ -180,4 +179,89 @@ footer {
 
 .footer-coluna-dir > p {
     padding: 1vh 0;
+}
+
+
+/* versão mobile */
+
+@media screen and (max-width: 480px) {
+    
+    header {
+        font-size: 10px;
+    }
+
+    .icone4bank {
+        display: none;
+    }
+
+    .main-pagina1, .main-pagina2, .main-pagina3 {
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .main-pagina1{
+        background-image: url(./anexos/fundomain1_mobile.jpeg);
+        color: white;
+    }
+
+    .texto-main1 {
+        color: white;
+        font-size: 80%;
+        margin-left: 0;
+        margin: 5vh 0;
+        padding: 0 5vw;
+    }
+
+    .texto-main1 > h1,h2 {
+        margin-top: 3vh;
+    }
+
+    .formulario {
+        width: 60vw;
+        height: 40vh;
+        text-align: center;
+        padding: 5vw;
+        border-radius: 20px;
+        justify-self: center;
+    }
+
+    input {
+        margin-top: 3vh;
+        height: 4vh;
+        width: 30vw;
+
+
+    }
+    
+    button {
+        height: 6vh;
+        width: 25vw;
+        margin-top: 5vh;
+    }
+
+    #imagens-main {
+        margin: 0;
+        justify-self: center;
+    }
+
+/* main 2 e 3*/
+
+    .texto-main2, .texto-main3 {
+        margin: 5vh 0;
+        padding: 0 5vw;
+        text-align: justify;
+    }
+
+
+
+
+/* footer */ 
+    footer {
+        margin-top: 150px;
+    }
+
+
+
+
 }
