@@ -1,6 +1,6 @@
 
 ### maryam-landing-page7
-Foi selecionado a opção do F4Bank
+foi selecionado a opção do F4Bank
 
 ### O que funciona?
 O preenchimento do formulário e os icones das redes sociais. Outras sessões estão apenas com o visual de botão para fins de simulação.
